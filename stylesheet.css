@@ -26,8 +26,8 @@
     background-size: 100%;
     width: 1920px;
     height: 1080px;
-    position: fixed;
-    top: 0px;
+    position: relative;
+    top: -20px;
 }
 
 .name {
@@ -75,4 +75,12 @@ a {
     a {
         color: lightgrey;
     }
+}
+
+.page2 {
+    background-color: aliceblue;
+    width: 1920px;
+    height: 1080px;
+    position: relative;
+    top: -20px;
 }
