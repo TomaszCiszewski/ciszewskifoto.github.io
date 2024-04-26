@@ -1,33 +1,78 @@
+@font-face {
+    font-family: Telegram;
+    src: url(src/fonts/PPTelegraf-Regular.otf);
+}
+
+@font-face {
+    font-family: TelegramB;
+    src: url(src/fonts/PPTelegraf-UltraBold.otf);
+}
+
+@font-face {
+    font-family: TelegramL;
+    src: url(src/fonts/PPTelegraf-UltraLight.otf);
+}
+
 .container {
     width: 100%;
     height: auto;
     position: relative;
     margin-left: -8px;
+    font-family: Telegram;
 }
 
-.box {
+.page1 {
+    background-image: url(src/img/bgpage1.jpg);
+    background-size: 100%;
+    width: 1920px;
+    height: 1080px;
     position: fixed;
-    width: 550px;
-    height: 50px;
-    background-color: red;
-
-    top: 50px;
+    top: 0px;
 }
 
-.box2 {
-    position: fixed;
-    width: 550px;
-    height: 50px;
-    background-color: blue;
-
-    top: 150px;
+.name {
+    font-family: Telegram;
+    color: white;
+    font-size: 20px;
+    position: relative;
+    top: 124px;
+    left: 137px;
 }
 
-.box3 {
-    position: fixed;
-    width: 550px;
-    height: 50px;
-    background-color: green;
-    left: 550px;
-    top: 100px;
+.portfolio {
+    font-family: TelegramB;
+    color: white;
+    font-size: 73px;
+    position: relative;
+    top: 93px;
+    left: 137px;
+}
+
+.explore_button {
+    position: relative;
+    width: 321px;
+    height: 78px;
+    background: white;
+    font-family: TelegramL;
+    font-size: 42px;
+    text-align: center;
+    border-radius: 50px;
+    top: 600px;
+    left: 700px;
+    .exp_butt_text {
+        position: relative;
+        top: 18px;
+        user-select: none;
+    }
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.explore_button:hover {
+    a {
+        color: lightgrey;
+    }
 }
