@@ -1,0 +1,33 @@
+.container {
+    width: 100%;
+    height: auto;
+    position: relative;
+    margin-left: -8px;
+}
+
+.box {
+    position: fixed;
+    width: 550px;
+    height: 50px;
+    background-color: red;
+
+    top: 50px;
+}
+
+.box2 {
+    position: fixed;
+    width: 550px;
+    height: 50px;
+    background-color: blue;
+
+    top: 150px;
+}
+
+.box3 {
+    position: fixed;
+    width: 550px;
+    height: 50px;
+    background-color: green;
+    left: 550px;
+    top: 100px;
+}
