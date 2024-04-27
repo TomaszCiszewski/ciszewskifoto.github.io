@@ -13,12 +13,19 @@
     src: url(src/fonts/PPTelegraf-UltraLight.otf);
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 .container {
     width: 100%;
-    height: auto;
+    height: fit-content;
     position: relative;
     margin-left: -8px;
+    margin-top: -8px;
+    margin-bottom: -10px;
     font-family: Telegram;
+    user-select: none;
 }
 
 .page1 {
@@ -32,33 +39,36 @@
 
 .name {
     font-family: Telegram;
-    color: white;
+    color: aliceblue;
     font-size: 20px;
     position: relative;
     top: 124px;
     left: 137px;
+    width: 250px;
 }
 
 .portfolio {
     font-family: TelegramB;
-    color: white;
+    color: aliceblue;
     font-size: 73px;
     position: relative;
     top: 93px;
     left: 137px;
+    width: 950px;
 }
 
 .explore_button {
     position: relative;
     width: 321px;
     height: 78px;
-    background: white;
+    background: aliceblue;
     font-family: TelegramL;
     font-size: 42px;
     text-align: center;
     border-radius: 50px;
     top: 600px;
-    left: 700px;
+    left: 42%;
+    scroll-behavior: smooth;
     .exp_butt_text {
         position: relative;
         top: 18px;
@@ -83,4 +93,184 @@ a {
     height: 1080px;
     position: relative;
     top: -20px;
+}
+
+.profiltomek {
+    position: relative;
+    width: 540px;
+    height: 800px;
+    top: 105px;
+    left: 1050px;
+}
+
+.about_page2 {
+    font-family: TelegramB;
+    position: relative;
+    top: -724px;
+    left: 175px;
+    font-size: 53px;
+    width: 350px;
+}
+
+.opis {
+    position: relative;
+    width: 625px;
+    height: 345px;
+    font-size: 25px;
+    font-family: TelegramL;
+    top: -750px;
+    left: 175px;
+}
+
+.page3 {
+    background-color: rgb(35, 35, 35);
+    width: 1920px;
+    height: 1080px;
+    position: relative;
+    top: -60px;
+}
+
+.work_sign {
+    font-family: TelegramB;
+    font-size: 56px;
+    color: aliceblue;
+    position: relative;
+    width: 200px;
+    top: 75px;
+    left: 90px;
+}
+
+.tram_img {
+    width: 380px;
+    height: auto;
+    position: relative;
+    left: 90px;
+    top: 75px;
+}
+
+.tram_head {
+    font-family: TelegramB;
+    font-size: 17px;
+    width: 400px;
+    color: aliceblue;
+    position: relative;
+    left: 90px;
+    top: 100px;
+    text-align: center;
+}
+
+.tram_text {
+    font-family: TelegramL;
+    font-size: 20px;
+    color: aliceblue;
+    width: 400px;
+    position: relative;
+    top: 100px;
+    left: 90px;
+}
+
+.salon {
+    position: relative;
+    left: -60px;
+    height: 0;
+}
+
+.salon_img {
+    width: 380px;
+    height: auto;
+    position: relative;
+    left: 580px;
+    top: -611px;
+}
+
+.salon_head {
+    font-family: TelegramB;
+    font-size: 17px;
+    color: aliceblue;
+    position: relative;
+    width: 400px;
+    top: -585px;
+    left: 580px;
+    text-align: center;
+}
+
+.salon_text {
+    font-family: TelegramL;
+    font-size: 20px;
+    color: aliceblue;
+    width: 400px;
+    position: relative;
+    top: -585px;
+    left: 580px;
+}
+
+.plaza {
+    position: relative;
+    left: -120px;
+    height: 0;
+}
+
+.plaza_img {
+    width: 380px;
+    height: auto;
+    position: relative;
+    left: 1070px;
+    top: -610px;
+}
+
+.plaza_head {
+    font-family: TelegramB;
+    font-size: 17px;
+    color: aliceblue;
+    position: relative;
+    width: 400px;
+    top: -585px;
+    left: 1070px;
+    text-align: center;
+}
+
+.plaza_text {
+    font-family: TelegramL;
+    font-size: 20px;
+    color: aliceblue;
+    width: 400px;
+    position: relative;
+    top: -585px;
+    left: 1100px;
+}
+
+.matport {
+    position: relative;
+    left: 310px;
+    height: 0;
+    width: 0;
+}
+
+.matport_img {
+    width: 380px;
+    height: auto;
+    position: relative;
+    left: 1070px;
+    top: -610px;
+}
+
+.matport_head {
+    font-family: TelegramB;
+    font-size: 17px;
+    color: aliceblue;
+    position: relative;
+    width: 400px;
+    top: -585px;
+    left: 1070px;
+    text-align: center;
+}
+
+.matport_text {
+    font-family: TelegramL;
+    font-size: 20px;
+    color: aliceblue;
+    width: 400px;
+    position: relative;
+    top: -585px;
+    left: 1100px;
 }
