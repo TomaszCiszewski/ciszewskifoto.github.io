@@ -106,6 +106,7 @@ a {
 .about_page2 {
     font-family: TelegramB;
     position: relative;
+    color: rgb(35, 35, 35);
     top: -724px;
     left: 175px;
     font-size: 53px;
@@ -273,4 +274,271 @@ a {
     position: relative;
     top: -585px;
     left: 1100px;
+}
+
+.page4 {
+    background-color: rgb(35, 35, 35);
+    width: 1920px;
+    height: 1080px;
+    position: relative;
+    top: -61px;
+}
+
+.mountain {
+    position: relative;
+    width: 380px;
+    height: 700px;
+    top: 75px;
+    left: 110px;
+}
+
+.mountain_img {
+    width: 380px;
+    height: auto;
+    position: relative;
+}
+
+.mountain_head {
+    font-family: TelegramB;
+    font-size: 17px;
+    color: aliceblue;
+    position: relative;
+    width: 280px;
+    text-align: center;
+    left: 50px;
+    top: 10px;
+    margin-top: 14px;
+    margin-bottom: 14px;
+}
+
+.mountain_text {
+    font-family: TelegramL;
+    font-size: 20px;
+    color: aliceblue;
+    width: 380px;
+    position: relative;
+    margin-top: 25px;
+}
+
+.makeup {
+    position: relative;
+    width: 380px;
+    height: 700px;
+    top: -625px;
+    left: 540px;
+}
+
+.makeup_img {
+    width: 380px;
+    height: auto;
+    position: relative;
+}
+
+.makeup_head {
+    font-family: TelegramB;
+    font-size: 17px;
+    color: aliceblue;
+    position: relative;
+    width: 280px;
+    text-align: center;
+    left: 50px;
+    top: 10px;
+    margin-top: 14px;
+    margin-bottom: 14px;
+}
+
+.makeup_text {
+    font-family: TelegramL;
+    font-size: 20px;
+    color: aliceblue;
+    width: 380px;
+    position: relative;
+    margin-top: 25px;
+}
+
+.newyorker {
+    position: relative;
+    width: 380px;
+    height: 700px;
+    top: -1325px;
+    left: 970px;
+}
+
+.newyorker_img {
+    width: 380px;
+    height: auto;
+    position: relative;
+}
+
+.newyorker_head {
+    font-family: TelegramB;
+    font-size: 17px;
+    color: aliceblue;
+    position: relative;
+    width: 280px;
+    text-align: center;
+    left: 50px;
+    top: 10px;
+    margin-top: 14px;
+    margin-bottom: 14px;
+}
+
+.newyorker_text {
+    font-family: TelegramL;
+    font-size: 20px;
+    color: aliceblue;
+    width: 380px;
+    position: relative;
+    margin-top: 25px;
+}
+
+.oldlady {
+    position: relative;
+    width: 380px;
+    height: 700px;
+    top: -2025px;
+    left: 1400px;
+}
+
+.oldlady_img {
+    width: 380px;
+    height: auto;
+    position: relative;
+}
+
+.oldlady_head {
+    font-family: TelegramB;
+    font-size: 17px;
+    color: aliceblue;
+    position: relative;
+    width: 280px;
+    text-align: center;
+    left: 50px;
+    top: 10px;
+    margin-top: 14px;
+    margin-bottom: 14px;
+}
+
+.oldlady_text {
+    font-family: TelegramL;
+    font-size: 20px;
+    color: aliceblue;
+    width: 380px;
+    position: relative;
+    margin-top: 25px;
+}
+
+.page5 {
+    background-color: aliceblue;
+    width: 1920px;
+    height: 800px;
+    position: relative;
+    margin-bottom: 0px;
+    margin-top: -61px;
+}
+
+.logo {
+    position: relative;
+    width: 360px;
+    height: 360px;
+    top: 200px;
+    left: 100px;
+}
+
+.logo_img {
+    width: 360px;
+    height: auto;
+    border-radius: 50px;
+    position: relative;
+}
+
+.contact_sign {
+    font-family: TelegramB;
+    font-size: 56px;
+    color: rgb(35, 35, 35);
+    width: 380px;
+    position: relative;
+    left: 130px;
+    top: -330px;
+}
+
+.social {
+    width: 260px;
+    height: auto;
+    position: relative;
+    left: 650px;
+    top: -300px;
+}
+
+.iglink {
+    font-family: TelegramL;
+    font-size: 20px;
+    color: rgb(35, 35, 35);
+    transition: 300ms ease;
+    line-height: 2.4;
+}
+
+.iglink:hover {
+    font-family: TelegramL;
+    font-size: 24px;
+    color: gray;
+
+}
+
+.fblink {
+    font-family: TelegramL;
+    font-size: 20px;
+    color: rgb(35, 35, 35);
+    transition: 300ms ease;
+}
+
+.fblink:hover {
+    font-family: TelegramL;
+    font-size: 24px;
+    color: gray;
+}
+
+.findme {
+    font-family: TelegramL;
+    font-size: 20px;
+    color: rgb(35, 35, 35);
+}
+
+.mylocation {
+    position: relative;
+    left: 650px;
+    top: -275px;
+    width: 450px;
+}
+
+.myloc {
+    font-family: TelegramL;
+    font-size: 20px;
+    color: rgb(35, 35, 35);
+}
+
+.locdata {
+    font-family: TelegramL;
+    font-size: 20px;
+    color: rgb(35, 35, 35);
+    line-height: 0.6;
+}
+
+.contact {
+    position: relative;
+    top: -215px;
+    left: 650px;
+    width: 450px;
+}
+
+.number {
+    font-family: TelegramB;
+    font-size: 32px;
+    color: rgb(35, 35, 35);
+}
+
+.e-mail {
+    font-family: TelegramB;
+    font-size: 32px;
+    color: rgb(35, 35, 35);
 }
