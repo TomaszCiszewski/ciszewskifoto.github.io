@@ -13,19 +13,20 @@
     src: url(src/fonts/PPTelegraf-UltraLight.otf);
 }
 
+@keyframes rotate {
+    from {rotate: -360deg;}
+    to {rotate: 0deg;}
+}
+
 html {
     scroll-behavior: smooth;
 }
 
-.container {
-    width: 100%;
-    height: fit-content;
-    position: relative;
-    margin-left: -8px;
-    margin-top: -8px;
-    margin-bottom: -10px;
+.kontener {
     font-family: Telegram;
     user-select: none;
+    max-width: 100%;
+    height: auto;
 }
 
 .page1 {
@@ -69,10 +70,17 @@ html {
     top: 600px;
     left: 42%;
     scroll-behavior: smooth;
+    animation-name: rotate;
+    animation-duration: 500ms;
+    animation-delay: 300ms;
     .exp_butt_text {
         position: relative;
-        top: 18px;
+        top: 10px;
         user-select: none;
+        .explore_text {
+            text-decoration: none;
+            color: rgb(35, 35, 35);
+        }
     }
 }
 
@@ -82,8 +90,9 @@ a {
 }
 
 .explore_button:hover {
-    a {
+    .explore_text {
         color: lightgrey;
+        text-decoration: none;
     }
 }
 
@@ -95,8 +104,30 @@ a {
     top: -20px;
 }
 
+.profildiv {
+    position: relative;
+    width: 540px;
+    height: 800px;
+    top: 105px;
+    left: 1050px;
+    transition: 400ms ease-in;
+}
+
 .profiltomek {
     position: relative;
+    width: 540px;
+    height: 800px;
+    transition: 400ms ease-in-out;
+}
+
+.profildiv:active {
+    .profiltomek {
+        transform: translateX(200px);
+    }
+}
+
+.hiddentext {
+    position: absolute;
     width: 540px;
     height: 800px;
     top: 105px;
@@ -476,12 +507,14 @@ a {
     color: rgb(35, 35, 35);
     transition: 300ms ease;
     line-height: 2.4;
+    text-decoration: none;
 }
 
 .iglink:hover {
     font-family: TelegramL;
     font-size: 24px;
     color: gray;
+    text-decoration: none;
 
 }
 
@@ -489,6 +522,7 @@ a {
     font-family: TelegramL;
     font-size: 20px;
     color: rgb(35, 35, 35);
+    text-decoration: none;
     transition: 300ms ease;
 }
 
@@ -496,6 +530,7 @@ a {
     font-family: TelegramL;
     font-size: 24px;
     color: gray;
+    text-decoration: none;
 }
 
 .findme {
