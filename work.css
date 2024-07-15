@@ -13,187 +13,18 @@
     src: url(src/fonts/PPTelegraf-UltraLight.otf);
 }
 
-@keyframes rotate {
-    from {rotate: -360deg;}
-    to {rotate: 0deg;}
-}
-
 html {
-    scroll-behavior: smooth;
-    overflow-y: hidden;
-}
-
-.kontener {
-    font-family: Telegram;
-    user-select: none;
-    max-width: 100%;
-    height: auto;
-}
-
-.page1 {
-    background-image: url(src/img/bgpage1.jpg);
-    background-size: 100%;
-    width: 1920px;
-    height: 1080px;
-    position: relative;
-    top: -20px;
-}
-
-.name {
-    font-family: Telegram;
-    color: aliceblue;
-    font-size: 20px;
-    position: relative;
-    top: 124px;
-    left: 137px;
-    width: 250px;
-}
-
-.portfolio {
-    font-family: TelegramB;
-    color: aliceblue;
-    font-size: 73px;
-    position: relative;
-    top: 93px;
-    left: 137px;
-    width: 950px;
-}
-
-.explore_button {
-    position: relative;
-    width: 321px;
-    height: 78px;
-    background: aliceblue;
-    font-family: TelegramL;
-    font-size: 42px;
-    text-align: center;
-    border-radius: 50px;
-    top: 600px;
-    left: 42%;
-    scroll-behavior: smooth;
-    animation-name: rotate;
-    animation-duration: 500ms;
-    animation-delay: 300ms;
-    .exp_butt_text {
-        position: relative;
-        top: 10px;
-        user-select: none;
-        .explore_text {
-            text-decoration: none;
-            color: rgb(35, 35, 35);
-        }
-    }
-}
-
-.work_button {
-    position: relative;
-    width: 321px;
-    height: 78px;
-    background: black;
-    font-family: TelegramL;
-    font-size: 42px;
-    text-align: center;
-    border-radius: 50px;
-    top: -500px;
-    left: 15%;
-    scroll-behavior: smooth;
-    animation-name: rotate;
-    animation-duration: 500ms;
-    animation-delay: 300ms;
-    .work_butt_text {
-        position: relative;
-        top: 10px;
-        user-select: none;
-        .work_text {
-            text-decoration: none;
-            color: white;
-        }
-    }
-}
-
-.work_button:hover {
-    .work_text {
-        color: lightgrey;
-        text-decoration: none;
-    }
-}
-
-a {
-    text-decoration: none;
-    color: black;
-}
-
-.explore_button:hover {
-    .explore_text {
-        color: lightgrey;
-        text-decoration: none;
-    }
-}
-
-.page2 {
-    background-color: aliceblue;
-    width: 1920px;
-    height: 1080px;
-    position: relative;
-    top: -20px;
-}
-
-.profildiv {
-    position: relative;
-    width: 540px;
-    height: 800px;
-    top: 105px;
-    left: 1050px;
-    transition: 400ms ease-in;
-}
-
-.profiltomek {
-    position: relative;
-    width: 540px;
-    height: 800px;
-    transition: 400ms ease-in-out;
-}
-
-.profildiv:active {
-    .profiltomek {
-        transform: translateX(200px);
-    }
-}
-
-.hiddentext {
-    position: absolute;
-    width: 540px;
-    height: 800px;
-    top: 105px;
-    left: 1050px;
-}
-
-.about_page2 {
-    font-family: TelegramB;
-    position: relative;
-    color: rgb(35, 35, 35);
-    top: -724px;
-    left: 175px;
-    font-size: 53px;
-    width: 350px;
-}
-
-.opis {
-    position: relative;
-    width: 625px;
-    height: 345px;
-    font-size: 25px;
-    font-family: TelegramL;
-    top: -750px;
-    left: 175px;
+    overflow-x: hidden;
 }
 
 .page3 {
     background-color: rgb(35, 35, 35);
-    width: 1920px;
+    width: 1940px;
     height: 1080px;
     position: relative;
     top: -60px;
+    left: -10px;
+
 }
 
 .work_sign {
@@ -343,10 +174,12 @@ a {
 
 .page4 {
     background-color: rgb(35, 35, 35);
-    width: 1920px;
+    width: 1940px;
     height: 1080px;
     position: relative;
     top: -61px;
+    left: -1%;
+    bottom: 30px;
 }
 
 .mountain {
@@ -493,121 +326,7 @@ a {
     margin-top: 25px;
 }
 
-.page5 {
-    background-color: aliceblue;
-    width: 1920px;
-    height: 800px;
-    position: relative;
-    margin-bottom: 0px;
-    margin-top: -255px;
-}
-
-.logo {
-    position: relative;
-    width: 360px;
-    height: 360px;
-    top: 200px;
-    left: 100px;
-}
-
-.logo_img {
-    width: 360px;
-    height: auto;
-    border-radius: 50px;
-    position: relative;
-}
-
-.contact_sign {
-    font-family: TelegramB;
-    font-size: 56px;
-    color: rgb(35, 35, 35);
-    width: 380px;
-    position: relative;
-    left: 130px;
-    top: -330px;
-}
-
-.social {
-    width: 260px;
-    height: auto;
-    position: relative;
-    left: 650px;
-    top: -300px;
-}
-
-.iglink {
-    font-family: TelegramL;
-    font-size: 20px;
-    color: rgb(35, 35, 35);
-    transition: 300ms ease;
-    line-height: 2.4;
-    text-decoration: none;
-}
-
-.iglink:hover {
-    font-family: TelegramL;
-    font-size: 24px;
-    color: gray;
-    text-decoration: none;
-
-}
-
-.fblink {
-    font-family: TelegramL;
-    font-size: 20px;
-    color: rgb(35, 35, 35);
-    text-decoration: none;
-    transition: 300ms ease;
-}
-
-.fblink:hover {
-    font-family: TelegramL;
-    font-size: 24px;
-    color: gray;
-    text-decoration: none;
-}
-
-.findme {
-    font-family: TelegramL;
-    font-size: 20px;
-    color: rgb(35, 35, 35);
-}
-
-.mylocation {
-    position: relative;
-    left: 650px;
-    top: -275px;
-    width: 450px;
-}
-
-.myloc {
-    font-family: TelegramL;
-    font-size: 20px;
-    color: rgb(35, 35, 35);
-}
-
-.locdata {
-    font-family: TelegramL;
-    font-size: 20px;
-    color: rgb(35, 35, 35);
-    line-height: 0.6;
-}
-
-.contact {
-    position: relative;
-    top: -215px;
-    left: 650px;
-    width: 450px;
-}
-
-.number {
-    font-family: TelegramB;
-    font-size: 32px;
-    color: rgb(35, 35, 35);
-}
-
-.e-mail {
-    font-family: TelegramB;
-    font-size: 32px;
-    color: rgb(35, 35, 35);
+body {
+    height: 2100px;
+    margin: 0px;
 }
